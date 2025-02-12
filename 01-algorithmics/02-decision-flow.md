@@ -132,3 +132,24 @@ Input:
 Output: 
     Wrong! The correct number was 1.
 ```
+
+## CHALLENGE 6: Rock Scissors Paper generator
+Create a program that randomly generates one of the options of the rock-paper-scissors game.
+
+**Example 1** 
+```
+Input: 
+    -
+
+Output: 
+    Rock
+```
+
+**Example 2** 
+```
+Input: 
+    -
+
+Output: 
+    Paper
+```
