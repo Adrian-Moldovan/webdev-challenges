@@ -197,3 +197,34 @@ Output: Bang! You lose.
 
 Output: You survived 2 rounds.
 ```
+
+## CHALLENGE 9: Survival Game
+
+Write a JavaScript program that simulates a survival challenge. The program should prompt the user to enter:
+- The player's name
+- The player's starting Hit Points (HP) (maximum 100)
+- A hunting skill level (between 0 and 10)
+
+The simulation will run for a set number of days. Each day, the player goes hunting to find food.
+
+### Hunting Mechanics:
+- The chance of a successful hunt is determined by the hunting skill.
+    - A hunting skill of 0 means 0% success (always fails).
+    - A hunting skill of 10 means 100% success (always succeeds).
+    - A hunting skill of X gives an X × 10% success rate.
+- Use a simulated dice roll (a random number between 1 and 10) to determine the outcome:
+    - If the roll is less than or equal to the hunting skill, the hunt succeeds (+10 HP).
+    - Otherwise, the hunt fails (-10 HP).
+
+### Logging Daily Events:
+Use console.log() to display the events of each day. Example output:
+```
+    Day 4 starts!  
+    John (Hunting Skill: 5) rolls a 8  
+    John is starving... 💀  
+    Current HP: 50  
+```
+
+If the player's HP reaches 0 or below, they die and the simulation ends early. Otherwise, the game continues until the final day.
+
+Good luck, survivor! 🚀
