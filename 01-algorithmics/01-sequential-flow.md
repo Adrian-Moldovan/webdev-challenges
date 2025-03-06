@@ -1,7 +1,7 @@
 # SEQUENTIAL FLOW CHALLENGES
 
 ## CHALLENGE 1: Number Relations
-Create a program takes a numeric value from the user and displays:
+Create a program that takes a numeric value from the user and displays:
 1. In a single message, a sequence of text containing: the previous number, the given number, and the next number (e.g., 5 => "4, 5, 6").
 2. The opposite of the number (e.g., 5 => "the opposite of 5 is -5", -3 => "the opposite of -3 is 3").
 3. The remainder of the division by 2 (e.g., 5 => "the remainder of 5 divided by 2 is 1").
