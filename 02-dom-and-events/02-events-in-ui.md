@@ -25,3 +25,54 @@ Create a UI that displays a number of squares, one of which hides a carrot. The 
 - After the carrot is found, allow the user to reset the grid and try again.
 - Show the number of attempts it took to find the carrot.
 - Include a countdown timer that shows the remaining time and stops the game when the time expires.
+
+
+## CHALLENGE 3: Interactive Countdown Timer
+Create a countdown timer that starts from a predefined number of hours, minutes, and seconds. The timer should update every second until it reaches zero. The user should be able to start, pause, and reset the timer.
+
+**Requirements:**
+1. The timer should start from a specific hardcoded time (e.g., 01:30:00 for 1 hour, 30 minutes).
+2. It should update dynamically in the DOM every second.
+3. When the countdown reaches zero, display a message like "Time's up!".
+4. The time should always be formatted as HH:MM:SS.
+5. Include Start, Pause, and Reset buttons.
+    - **Start** begins or resumes the countdown.
+    - **Pause** stops the countdown without resetting the time.
+    - **Reset** sets the timer back to the original time.
+
+**Bonus**
+Add a progress bar that visually represents the percentage of time remaining.
+
+
+## CHALLENGE 3: Interactive Countdown Timer
+Create a countdown timer that starts from a predefined number of hours, minutes, and seconds. The timer should update every second until it reaches zero. The user should be able to start, pause, and reset the timer.
+
+**Requirements:**
+1. The timer should start from a specific hardcoded time (e.g., 01:30:00 for 1 hour, 30 minutes).
+2. It should update dynamically in the DOM every second.
+3. When the countdown reaches zero, display a message like "Time's up!".
+4. The time should always be formatted as HH:MM:SS.
+5. Include Start, Pause, and Reset buttons.
+    - **Start** begins or resumes the countdown.
+    - **Pause** stops the countdown without resetting the time.
+    - **Reset** sets the timer back to the original time.
+
+**Bonus**
+Add a progress bar that visually represents the percentage of time remaining.
+
+
+## CHALLENGE 4: Interactive Countdown Timer
+Create a trivia game where the user sees a picture and must choose the correct answer from multiple choices.
+
+**Requirements:**
+1. Display an image related to the trivia question.
+2. Show a question along with at least four possible answers.
+3. Only one answer should be correct.
+4. When the user selects an answer:
+    - Show immediate feedback ("Correct!" or "Wrong! Try again.").
+5. Allow the user to try again or move to the next question.
+
+**Bonus**
+- Randomize the answer order each time the question appears.
+- Cycle through multiple questions with different images.
+- Keep track of the user's score and display it at the end.
