@@ -44,35 +44,33 @@ Create a countdown timer that starts from a predefined number of hours, minutes,
 Add a progress bar that visually represents the percentage of time remaining.
 
 
-## CHALLENGE 3: Interactive Countdown Timer
-Create a countdown timer that starts from a predefined number of hours, minutes, and seconds. The timer should update every second until it reaches zero. The user should be able to start, pause, and reset the timer.
+## CHALLENGE 4: Trivia Quiz
+Create a trivia game where where the user answers multiple-choice questions.
 
 **Requirements:**
-1. The timer should start from a specific hardcoded time (e.g., 01:30:00 for 1 hour, 30 minutes).
-2. It should update dynamically in the DOM every second.
-3. When the countdown reaches zero, display a message like "Time's up!".
-4. The time should always be formatted as HH:MM:SS.
-5. Include Start, Pause, and Reset buttons.
-    - **Start** begins or resumes the countdown.
-    - **Pause** stops the countdown without resetting the time.
-    - **Reset** sets the timer back to the original time.
-
-**Bonus**
-Add a progress bar that visually represents the percentage of time remaining.
-
-
-## CHALLENGE 4: Interactive Countdown Timer
-Create a trivia game where the user sees a picture and must choose the correct answer from multiple choices.
-
-**Requirements:**
-1. Display an image related to the trivia question.
-2. Show a question along with at least four possible answers.
-3. Only one answer should be correct.
-4. When the user selects an answer:
+1. Display a text-based question with four possible answers.
+2. Only one answer should be correct.
+3. When the user selects an answer:
     - Show immediate feedback ("Correct!" or "Wrong! Try again.").
-5. Allow the user to try again or move to the next question.
+4. Allow the user to try again or move to the next question.
 
 **Bonus**
 - Randomize the answer order each time the question appears.
 - Cycle through multiple questions with different images.
 - Keep track of the user's score and display it at the end.
+
+
+## CHALLENGE 5: Random Floating Images
+ Create an interactive effect where clicking a button generates a random SVG shape (e.g., snowflake, heart, butterfly, sun). The SVG appears at a random size and position, then disappears after a short time.
+
+ **Requirements:**
+1. Add multiple buttons, each corresponding to a different SVG shape (Snowflake, Heart, Butterfly, Sun).
+2. When a button is clicked:
+    - A randomly sized SVG appears at a random position on the screen.
+    - The SVG disappears after a set interval (e.g., 3 seconds).
+
+**Bonus**
+- Add a fade-out animation before disappearing.
+- Make SVGs float down before vanishing 
+- Animate SVGs (e.g., spin slightly).
+- Ensure SVGs do not overlap
