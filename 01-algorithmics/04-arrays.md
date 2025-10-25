@@ -135,3 +135,39 @@ Output:
     Your numbers: 3 12 19 34 40 45  
     You matched 3 numbers!  
 ```
+
+## CHALLENGE 6: Random Student Picker
+Create a program that randomly picks a student’s name from a group of students.
+
+### What your program should do ###
+1. You already have a list of student names saved in your program (for example: "Ann", "Bob", "Chris").
+2. Each time the user chooses to continue, your program should pick one random student from the list and display their name.
+3. After showing the name, the program should ask the user if they want to pick another student.
+    - If the user says “OK”: pick another student.
+    - If the user says “Cancel” → show a goodbye message and stop the program.
+4. Once a student has been picked, they cannot be picked again until all the other students have been picked at least once. After everyone has been picked once, the list resets and picking starts over again.
+
+**Example** 
+```
+Students: Ann, Bob, Chris
+Output: Press OK to pick a student, Cancel to stop:
+Input: OK
+Output: The randomly picked student is: Bob. Press OK to continue.
+Input: OK
+Output: Press OK to pick a student, Cancel to stop:
+Input: OK
+Output: The randomly picked student is: Ann. Press OK to continue.
+Input: OK
+Output: Press OK to pick a student, Cancel to stop:
+Input: OK
+Output: The randomly picked student is: Chris. Press OK to continue.
+Input: OK
+------
+(At this point, everyone was picked, so the list resets.)
+------
+Output: Press OK to pick a student, Cancel to stop:
+Input: OK
+Output: The randomly picked student is: Bob. Press OK to continue.
+Input: Cancel
+Output: Thank you for using "Random Student Picker"!
+```
